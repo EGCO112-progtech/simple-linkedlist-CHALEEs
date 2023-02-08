@@ -112,14 +112,6 @@ int main(int argc, const char * argv[]) {
       head = head->next;
       free(tmp);
     }
-printf("\n");
-    tmp = head;
-      while(tmp != NULL){
-      printf("%3d -> ",tmp->value);
-      tmp = tmp->next;
-      }
-      printf("NULL");
-      
   
   return 0;
 }
